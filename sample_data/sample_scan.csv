@@ -1,0 +1,30 @@
+asset,ip_address,vulnerability,cve,cvss_score,first_found,status
+web-srv-01,10.0.1.10,Apache HTTP Server mod_proxy SSRF,CVE-2021-40438,9.0,2026-07-20,Remediated
+web-srv-01,10.0.1.10,Apache Log4j remote code execution (Log4Shell),CVE-2021-44228,10.0,2026-07-20,Open
+web-srv-01,10.0.1.10,Outdated jQuery library (XSS),CVE-2020-11023,6.1,2026-09-26,Remediated
+web-srv-01,10.0.1.10,Missing HTTP security headers,,3.1,2026-06-04,Open
+web-srv-01,10.0.1.10,TLS 1.0 protocol enabled,,5.3,2026-10-19,Remediated
+web-srv-01,10.0.1.10,OpenSSH regreSSHion remote code execution,CVE-2024-6387,8.1,2026-08-27,Open
+web-srv-02,10.0.1.11,Apache HTTP Server mod_proxy SSRF,CVE-2021-40438,9.0,2026-10-20,Open
+web-srv-02,10.0.1.11,Outdated jQuery library (XSS),CVE-2020-11023,6.1,2026-06-13,Remediated
+web-srv-02,10.0.1.11,Missing HTTP security headers,,3.1,2026-07-20,Open
+web-srv-02,10.0.1.11,Self-signed TLS certificate,,4.3,2026-06-06,Open
+web-srv-02,10.0.1.11,OpenSSH regreSSHion remote code execution,CVE-2024-6387,8.1,2026-06-30,Open
+db-srv-01,10.0.2.20,MySQL server version disclosure,,3.7,2026-10-28,Open
+db-srv-01,10.0.2.20,TLS 1.0 protocol enabled,,5.3,2026-09-25,Open
+db-srv-01,10.0.2.20,OpenSSH regreSSHion remote code execution,CVE-2024-6387,8.1,2026-06-12,Open
+db-srv-01,10.0.2.20,Self-signed TLS certificate,,4.3,2026-07-17,Open
+file-srv-01,10.0.3.30,SMBv1 enabled,,7.5,2026-07-23,Open
+file-srv-01,10.0.3.30,TLS 1.0 protocol enabled,,5.3,2026-07-03,Open
+file-srv-01,10.0.3.30,Microsoft Windows Print Spooler RCE (PrintNightmare),CVE-2021-34527,8.8,2026-06-02,Open
+dc-01,10.0.0.5,Windows Netlogon elevation of privilege (Zerologon),CVE-2020-1472,10.0,2026-07-08,Open
+dc-01,10.0.0.5,Microsoft Windows Print Spooler RCE (PrintNightmare),CVE-2021-34527,8.8,2026-05-27,Open
+dc-01,10.0.0.5,SMBv1 enabled,,7.5,2026-07-18,Open
+print-srv-01,10.0.4.40,Microsoft Windows Print Spooler RCE (PrintNightmare),CVE-2021-34527,8.8,2026-07-31,Open
+print-srv-01,10.0.4.40,SMBv1 enabled,,7.5,2026-05-15,Open
+print-srv-01,10.0.4.40,Self-signed TLS certificate,,4.3,2026-08-24,Open
+laptop-hr-014,10.0.10.14,Microsoft Office remote code execution,CVE-2023-21716,9.8,2026-07-04,Open
+laptop-hr-014,10.0.10.14,Microsoft Windows Print Spooler RCE (PrintNightmare),CVE-2021-34527,8.8,2026-11-05,Open
+laptop-fin-022,10.0.10.22,Microsoft Office remote code execution,CVE-2023-21716,9.8,2026-06-21,Open
+laptop-fin-022,10.0.10.22,Microsoft Windows Print Spooler RCE (PrintNightmare),CVE-2021-34527,8.8,2026-08-02,Open
+laptop-fin-022,10.0.10.22,SMBv1 enabled,,7.5,2026-08-30,Remediated
